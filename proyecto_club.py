@@ -18,7 +18,7 @@ var_dni = IntVar()
 var_telefono = StringVar()
 var_email = StringVar()
 var_direccion = StringVar()
-var_estado_de_cuenta = IntVar()
+
 
 #conexión con bd
 mi_conexion = MySQLdb.connect(host="localhost", user="root", password="", db="bbdd_club")
